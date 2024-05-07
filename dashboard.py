@@ -279,5 +279,5 @@ st.dataframe(actor_counts, use_container_width=True, hide_index=True,
              column_config={'actor1': 'Actor 1', 'actor2': 'Actor 2', 'count': 'Count',
                             'percentage': st.column_config.ProgressColumn('Percentage')})
 
-st.markdown(' ##### Creator: Felipe Bernardo, feel free to contact me on: felipebrenobernardo@gmail.com.')
+st.markdown(' ##### Created by Felipe Bernardo, feel free to contact me on: felipebrenobernardo@gmail.com.')
 ########################

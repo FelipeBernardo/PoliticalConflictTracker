@@ -1,0 +1,6 @@
+pandas
+plotly
+streamlit
+pydeck
+pydeck
+seaborn

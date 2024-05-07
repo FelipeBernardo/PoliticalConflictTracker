@@ -269,7 +269,7 @@ st.dataframe(c2, hide_index = True, use_container_width = True, column_config = 
 
 ############
 st.subheader("Who's fighting who?")
-st.markdown('Number of times one or two actors were involved in a conflit. The order does not reflect the perpetrator of the agression')
+st.markdown('Count of occurrences where one or two actors were engaged in a conflict. The sequence does not indicate the aggressor in the conflit.')
 
 filtered_data['actor2'].fillna('None', inplace=True)
 actor_counts = filtered_data.groupby(['actor1', 'actor2']).size().reset_index(name='count')

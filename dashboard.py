@@ -52,7 +52,7 @@ fatalities = st.sidebar.selectbox('Fatalities', ['All events', 'Only fatal event
 location_list = ['All', 'Belem', 'Belo Horizonte', 'Belford Roxo', 'Maceio', 'Manaus', 'Rio de Janeiro - Central Zone',
 'Rio de Janeiro - North Zone', 'Rio de Janeiro - West Zone', 'Salvador', 'Sao Goncalo']
 location = st.sidebar.selectbox('Location (top 10)', options=location_list, index=0)
-map_option = st.sidebar.toggle('3D Map', value = False)
+map_option = st.sidebar.checkbox('3D Map', value = False)
 graph_option = st.sidebar.radio('Graph style', ['Stacked', 'Grouped'])
 
 if map_option:
